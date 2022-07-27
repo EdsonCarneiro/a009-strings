@@ -1,8 +1,14 @@
 const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
-const minhaString2 = "Eu não sou supersticioso, mas sou um pouco ________."
-console.log(minhaString.length, minhaString2.length);
 
-const minhaString3 = "Eu não sou supersticioso, mas sou um pouco sticioso."
+console.log(minhaString);
+console.log(minhaString.length);
+const minhaString2 = minhaString.trim()
+console.log(minhaString2)
+console.log(minhaString2.length);
+
+
+console.log(minhaString2.replaceAll("________","sticioso"))
+
 
 
 
